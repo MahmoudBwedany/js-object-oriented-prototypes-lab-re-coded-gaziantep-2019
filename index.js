@@ -3,12 +3,12 @@
    this.homeState = homeState
    this.training = training
    
-   BoardMember.prototype.veto {
+   BoardMember.prototype.veto = function() {
      return 'No, I must disagree'
    }
    
    
-  BoardMember.prototype.approve {
+  BoardMember.prototype.approve = function() {
     
   }
   this.approve = function(){
